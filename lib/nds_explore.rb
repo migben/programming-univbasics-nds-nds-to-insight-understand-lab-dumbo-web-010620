@@ -13,6 +13,7 @@ def print_first_directors_movie_titles
   idx = 0
   while idx <= directors_database[:name][:movies].size
     # the following statement will print out the movie titles of the first director within our NDS (directors_database)
+    #
     puts directors_database[:name][:movies][idx][:title]
     idx += 1
   end
