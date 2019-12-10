@@ -15,4 +15,4 @@ end
 
 # had to call this method to clearly see the NDS that I'm working with.
 # I've copy/pasted the NDS in a repl.it window easier to be read.
-pretty_print_nds(directors_database)
+# pretty_print_nds(directors_database)
