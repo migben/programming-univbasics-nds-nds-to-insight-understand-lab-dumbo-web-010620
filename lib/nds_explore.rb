@@ -12,7 +12,8 @@ end
 def print_first_directors_movie_titles
   idx = 0
   while idx <= directors_database[:name][:movies].size
-    
+    ™
+    idx += 1
   end
 end
 
