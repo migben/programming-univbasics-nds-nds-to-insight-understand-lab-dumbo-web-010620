@@ -10,8 +10,9 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  first_dir_movies = directors_database[:name][:movies]
   idx = 0
-  while idx < directors_database[:name][:movies].size
+  while idx < first_dir_movies.size
     # the following statement will print out the movie titles of the first director within our NDS (directors_database)
     # and puts already has \n included in its formatting (no need)
     puts directors_database[:name][:movies][idx][:title]
