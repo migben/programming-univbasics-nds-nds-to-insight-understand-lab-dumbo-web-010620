@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
   while idx < first_dir_movies.size
     # the following statement will print out the movie titles of the first director within our NDS (directors_database)
     # and puts already has \n included in its formatting (no need)
-    puts directors_database[:name][:movies][idx][:title]
+    puts first_dir_movies[idx][:title]
     idx += 1
   end
 end
