@@ -10,7 +10,7 @@ def pretty_print_nds(nds)
 end
 
 # after running learn and reading the error multiple times, realized that I was improperly accessing the NDS movies> titles.
-# names & movies
+# names & movies are on the same layer within the AoH
 def print_first_directors_movie_titles
   first_dir_movies = directors_database[0][:movies]
   idx = 0
