@@ -10,7 +10,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  outer_idx = 0
+  idx = 0
   while outer_idx <= nds
 end
 
