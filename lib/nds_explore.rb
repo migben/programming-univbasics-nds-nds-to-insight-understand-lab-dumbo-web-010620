@@ -12,7 +12,7 @@ end
 def print_first_directors_movie_titles
   first_dir_movies = directors_database[:name][:movies]
   idx = 0
-  while idx < first_dir_movies.length
+  while idx < first_dir_movies.count
     # the following statement will print out the movie titles of the first director within our NDS (directors_database)
     # and puts already has \n included in its formatting (no need)
     puts first_dir_movies[idx][:title]
