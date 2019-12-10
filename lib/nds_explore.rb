@@ -11,7 +11,9 @@ end
 
 def print_first_directors_movie_titles
   idx = 0
-  while outer_idx <= directors_database[:name][:movies]
+  while idx <= directors_database[:name][:movies].size
+    
+  end
 end
 
 # had to call this method to clearly see the NDS that I'm working with.
