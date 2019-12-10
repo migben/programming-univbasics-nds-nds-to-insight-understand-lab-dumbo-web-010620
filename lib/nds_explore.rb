@@ -11,7 +11,7 @@ end
 
 def print_first_directors_movie_titles
   idx = 0
-  while outer_idx <= nds
+  while outer_idx <= directors_database[]
 end
 
 # had to call this method to clearly see the NDS that I'm working with.
